@@ -1,3 +1,20 @@
+/
+#########################################################################################
+# Author: Himanshu Gupta
+# 
+# Description: This script allows you to take your personal transactions that make up
+# your investment portfolio and analyze them by seeing how well your portfolio has
+# since inception compared to S&P 500 and NASDAQ Composite. It also allows you to see
+# whether your portfolio is well diversified or not as well as see how well individual
+# securities have performed.
+# 
+# Note: The script uses close prices from IEX (via iex.q) and thus, will only work for
+# securities that IEX has data for. Additionally, transactions.csv should have same
+# symbol name for a security as IEX. For example, Apple's ticker on IEX is AAPL so you
+# can't use AAPL.O or AAPL US EQUITY.
+#########################################################################################
+\
+
 \c 150 250
 
 / Example command: q analyze_portfolio.q -sd 20170401 -ed 20170501
